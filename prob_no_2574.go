@@ -9,8 +9,20 @@ Return the array answer.
  */
 //Problem Link: https://leetcode.com/problems/left-and-right-difference/
 
+// driver code
+package main
 
+import "fmt"
 
+//main function
+func main(){
+	//input array of your choice
+	nums := []int{1,2,3,4}
+	//call the function
+	fmt.Println(leftRigthDifference(nums))
+	  }
+
+// solution function
 func leftRigthDifference(nums []int) []int {
 	//create a slice to store the net sum
 	var net_sum[]int
@@ -37,3 +49,5 @@ func leftRigthDifference(nums []int) []int {
 	}
 	return net_sum
   }
+
+
