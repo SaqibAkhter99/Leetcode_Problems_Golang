@@ -9,7 +9,6 @@
 // Since 2 has only one digit, return it.
 
 // Problem Link: https://leetcode.com/problems/add-digits/
-
 func addDigits(num int) int {
 	for true{
 	  s:= strconv.Itoa(num)
