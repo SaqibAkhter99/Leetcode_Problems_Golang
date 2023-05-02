@@ -3,7 +3,6 @@ This repository contains solutions to LeetCode problems written in Golang. These
 
 ### Table of Contents
 - Installation
-- Usage
 - Contribution
 - License
 
